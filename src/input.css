@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.jumbotron {
+    @apply bg-red-500 w-3/4 mx-auto py-10 text-white flex flex-col gap-3 justify-center items-center;
+}
